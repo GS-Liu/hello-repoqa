@@ -1,0 +1,30 @@
+# 统一换行符：源码与文本一律以 LF 存入仓库，
+# 避免 Windows 贡献者提交 CRLF 导致 diff 噪音与脚本执行失败。
+* text=auto eol=lf
+
+# 明确按文本处理的文件
+*.py      text eol=lf
+*.md      text eol=lf
+*.json    text eol=lf
+*.yml     text eol=lf
+*.yaml    text eol=lf
+*.txt     text eol=lf
+*.toml    text eol=lf
+*.cfg     text eol=lf
+*.sh      text eol=lf
+LICENSE   text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
+
+# 二进制文件不做换行转换
+*.png     binary
+*.jpg     binary
+*.jpeg    binary
+*.gif     binary
+*.pdf     binary
+*.pptx    binary
+*.tar.gz  binary
+*.zip     binary
+
+# 让 GitHub 语言统计正确识别
+*.py      linguist-language=Python

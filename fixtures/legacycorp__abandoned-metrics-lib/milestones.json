@@ -1,0 +1,15 @@
+[
+  {
+    "number": 1,
+    "title": "2.4.x 维护",
+    "description": "历史维护分支遗留的待办事项，仓库已归档，不再推进。",
+    "state": "open",
+    "created_at": "2019-05-02T01:00:00Z",
+    "updated_at": "2023-01-19T07:22:00Z",
+    "due_on": null,
+    "closed_at": null,
+    "creator": "legacy-bot",
+    "open_issues": 12,
+    "closed_issues": 31
+  }
+]
